@@ -1,16 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <style>
-        body { font-family: Arial; text-align: center; margin-top: 50px; }
-        h1 { color: #2c3e50; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohamed Jaaidane | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Welcome to My Portfolio!</h1>
-    <p>This is my first GitHub Pages website.</p>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="logo">Mohamed Jaaidane</div>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Hello, I'm Mohamed Jaaidane</h1>
+      <p>Software Engineer | Web Developer | AI Enthusiast</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>I'm a passionate developer focused on creating modern and responsive web applications. I love learning new technologies and building projects that solve real-world problems.</p>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="images/project1.png" alt="Project 1">
+        <h3>Project 1</h3>
+        <p>Short description of your project.</p>
+        <a href="#" class="btn">View</a>
+      </div>
+      <div class="project-card">
+        <img src="images/project2.png" alt="Project 2">
+        <h3>Project 2</h3>
+        <p>Short description of your project.</p>
+        <a href="#" class="btn">View</a>
+      </div>
+      <!-- Add more project cards here -->
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>You can reach me via email at <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Mohamed Jaaidane. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
